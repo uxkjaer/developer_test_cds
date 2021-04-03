@@ -1,0 +1,27 @@
+{
+  "name": "developerTest",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "ui5 serve  --open index.html",
+    "test": "echo no test added",
+    "lint": "eslint .",
+    "serve": "ui5 serve ",
+    "build": "ui5 build  --clean-dest --a --dest dist/uimodule"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.6.4",
+    "eslint": "^7.14.0",
+    "ui5-middleware-livereload": "^0.4.3",
+    "ui5-middleware-route-proxy": "*",
+    "ui5-middleware-simpleproxy": "^0.7.1",
+    "ui5-task-nwabap-deployer": "*"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-livereload",
+      "ui5-task-nwabap-deployer",
+      "ui5-middleware-route-proxy",
+      "ui5-middleware-simpleproxy"
+    ]
+  }
+}

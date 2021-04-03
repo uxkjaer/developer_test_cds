@@ -1,0 +1,12 @@
+<mvc:View
+	controllerName="com.s4.analytics.developerTest.controller.Object"
+	xmlns="sap.uxap"
+	xmlns:m="sap.m"
+	xmlns:f="sap.f"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:mvc="sap.ui.core.mvc">
+	<m:Page title="Change me to object page layout">
+		<m:content>
+		</m:content>
+	</m:Page>
+</mvc:View>

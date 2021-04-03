@@ -1,0 +1,16 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "developerTest",
+    "namespace": "com.s4.analytics",
+    "platform": "SAP NetWeaver",
+    "viewtype": "XML",
+    "viewname": "Worklist",
+    "ui5libs": "Local resources (SAPUI5)",
+    "newdir": true,
+    "namespaceURI": "com/s4/analytics",
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}

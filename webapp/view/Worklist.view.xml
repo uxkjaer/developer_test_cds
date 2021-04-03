@@ -1,0 +1,25 @@
+<mvc:View xmlns:filterbar="sap.ui.comp.filterbar" controllerName="com.s4.analytics.developerTest.controller.Worklist" displayBlock="true"
+  xmlns="sap.m"
+  xmlns:f="sap.f"
+  xmlns:mvc="sap.ui.core.mvc">
+  <f:DynamicPage>
+    <f:title>
+      <f:DynamicPageTitle>
+        <f:heading>
+          <Title text="{i18n>title}"/>
+        </f:heading>
+      </f:DynamicPageTitle>
+    </f:title>
+    <f:header>
+
+      <f:DynamicPageHeader>
+        <f:content>
+
+        </f:content>
+      </f:DynamicPageHeader>
+    </f:header>
+    <f:content>
+
+    </f:content>
+  </f:DynamicPage>
+</mvc:View>
