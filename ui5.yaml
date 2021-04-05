@@ -38,18 +38,3 @@ server:
             user: PROXY_USERNAME
             pass: PROXY_PASSWORD
             client: '001'
-builder:
-  customTasks:
-  - name: ui5-task-nwabap-deployer
-    afterTask: generateVersionInfo
-    configuration:
-      resources:
-        path: dist/uimodule
-        pattern: "**/*.*"
-      connection:
-      ui5:
-        language: EN
-        package: zdeveloper_test
-        bspContainer: zsales_order
-        bspContainerText: Sales Order Worklist
-        calculateApplicationIndex: true
