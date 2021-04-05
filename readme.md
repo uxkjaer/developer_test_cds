@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/uxkjaer/developer_test_cds)
+
 # S4-Analytics Developer Test
 Welcome to the developer test.
 
